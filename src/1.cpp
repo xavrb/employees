@@ -20,8 +20,8 @@ int main()
     worker[x].CARGA_DATOS();
     worker[x].CALCULAR(x);
     worker[x].MOSTRAR();
-    cout « "Hay mas trabajadores?";
-    cin » opc;
+    cout << "Hay mas trabajadores?";
+    cin >> opc;
     x++; // Hay que poner el incremento para poder hacer un avance en la memoria.
   }
 
@@ -33,11 +33,11 @@ int main()
 
 void empleados::CARGA_DATOS()
 {
-  cout « "Dame tu nombre";
-  cin » nombre;
-  cin » departamento;
-  cin » num_empl;
-  cin » sueldo;
+  cout << "Dame tu nombre";
+  cin >> nombre;
+  cin >> departamento;
+  cin >> num_empl;
+  cin >> sueldo;
 
   return;
 }

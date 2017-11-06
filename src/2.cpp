@@ -18,25 +18,25 @@ int main()
   char anio[2];
 
 
-  cout « "Bienvenidos"« endl;
-  cout « "/n Dame tu apellido paterno: ";
-  cin » Ap_p;
-  cout « "/n Dame tu apellido materno: ";
-  cin » Ap_m;
-  cout « "/n Dame tu primer nombre: ";
-  cin » Nombre_1;
-  cout « "/n Dame tu dia de nacimiento: ";
-  cin » dia;
-  cout « "/n Dame tu mes de nacimiento: ";
-  cin » mes;
-  cout « "/n Dame tu año de nacimiento (Solo los dos ultimos digitos): ";
-  cin » anio;
-  cout « Nombre_1 « " " « Ap_p « " " « Ap_m « "/n " « endl;
-  cout « dia « " " « mes « " " « anio « " " « endl;
+  cout << "Bienvenidos"<< endl;
+  cout << "/n Dame tu apellido paterno: ";
+  cin >> Ap_p;
+  cout << "/n Dame tu apellido materno: ";
+  cin >> Ap_m;
+  cout << "/n Dame tu primer nombre: ";
+  cin >> Nombre_1;
+  cout << "/n Dame tu dia de nacimiento: ";
+  cin >> dia;
+  cout << "/n Dame tu mes de nacimiento: ";
+  cin >> mes;
+  cout << "/n Dame tu año de nacimiento (Solo los dos ultimos digitos): ";
+  cin >> anio;
+  cout << Nombre_1 << " " << Ap_p << " " << Ap_m << "/n " << endl;
+  cout << dia << " " << mes << " " << anio << " " << endl;
 
 
 
-  cout « RFC;
+  cout << RFC;
 
   
   
